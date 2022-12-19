@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+
+body {
+  color: gray;
+}
+
+h2 {
+  color: cornflowerblue;
+}
+
+a {
+  color: gray;
+}
+
+a:hover {
+  color: cornflowerblue;
+  text-decoration: overline;
+}
+
+p {
+  font-weight: 400;
+}
+
+section {
+  width: 600px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: cornflowerblue;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color:gainsboro;
+}
+
+nav h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 48px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px
+}
+
+nav ul li {
+  display: inline;
+  font-size: 20px;
+}
